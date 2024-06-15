@@ -1,0 +1,23 @@
+/* body{
+  background-image: url('./assets/wallpaper.webp');
+  background-size: contain;
+  
+}; */
+
+
+.pic{
+  max-width: 250px;
+    height: 200px;
+}
+.card{
+  text-align: center;
+  border: 2px solid hsl(0, 2%, 59%);
+  max-width: 350px;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 10px 10px 15px rgba(105, 101, 101, 0.4) ;
+  border-radius: 10px;
+  background-color: hsl(0, 3%, 25%);
+  color: wheat;
+
+}

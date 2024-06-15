@@ -1,0 +1,45 @@
+body{
+  background-image: url('./assets/wallpaper.webp');
+  background-size: cover;
+}
+.foot{
+ margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border: 2px solid hsl(0, 0%, 90%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px hsl(0, 0%, 40%);
+  }
+.icon1{
+  text-align: start;
+  width: 30px;
+  margin-top: 5px;
+}
+.navbar{
+  display: grid;
+  grid-template-columns:2fr 2fr 2fr 2fr;
+  border: 2px solid white;
+  margin-block-start: 240px;
+  background-color: #fff;
+  border-radius: 6px;
+  
+}
+.icon2 , .icon3, .icon4{
+  width: 30px;
+  margin-top: 3px;
+}
+.body{
+  display: grid;
+  gap: 30px;
+
+}
+.comp{
+  width: 50px;
+}
+.text{
+  display: flex;
+  justify-content: end;
+  font-size: 10px;
+  margin-left: 50px;
+}
